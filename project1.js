@@ -31,6 +31,10 @@ const quotes = [ {
     quote: `"beppy cute biral"`,
     person: `-Mogammel`
 },
+{
+    quote: `"Bepoy"`,
+    person: `-Susfiq`
+},
 
 {
     quote: `"VERY gashu"`,
