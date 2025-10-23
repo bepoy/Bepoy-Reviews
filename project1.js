@@ -14,7 +14,7 @@ const quotes = [ {
 
 {
     quote: `"Rotund"`,
-    person: `-Retardo`
+    person: `-Famiu`
 },
 
 {

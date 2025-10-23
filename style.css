@@ -66,3 +66,19 @@ body{
 .button-area button:active{
     background-color: rgb(83, 79, 81);
 }
+
+
+#more-btn{
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 15px ;
+    font-weight: bold;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

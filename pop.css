@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    /* background: url(hmm.png) no-repeat center center/ cover; */
+    background-color: rgb(22, 22, 36);
+    height: 100vh;
+    position: relative;
+}
+
+
+#open-btn{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 350px;
+    height: 80px;
+    font-size: 1.5rem;
+    background-color: rgb(201, 100, 54);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+#open-btn:hover{
+    background-color: rgb(255, 140, 84);
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#modal{ 
+    background: url(meow.png) no-repeat center center/ cover;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px 20px;
+    color: rgb(0, 0, 0);
+    font-size: large;
+
+}
+
+#close-btn{
+    font-size: 2rem;
+    cursor: pointer;
+    color: red;
+
+
+}
+
+.para{
+    background: white;
+    padding: 10px;
+    margin-left: 100px;
+
+}
+
+
+#modal-container{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
