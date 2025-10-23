@@ -39,7 +39,15 @@ const quotes = [ {
 {
     quote: `"VERY gashu"`,
     person: `-Rimco`
-},];
+
+},
+
+{
+    quote: `"there are no words I can say that would be enough to capture beppi's essence appropriately"`,
+    person: `-sharmin`
+
+},
+];
 
 btn.addEventListener('click', function() {
 
