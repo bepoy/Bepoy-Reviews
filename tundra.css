@@ -11,12 +11,13 @@ body {
   height: 100vh;
   position: relative;
   display: flex;
+  flex-direction: column;
 }
 
 #open-btn {
   position: absolute;
-  top: 50%;
-  left: 10%;
+  top: 70%;
+  left: 40%;
   width: 350px;
   height: 80px;
   font-size: 1.5rem;
@@ -54,6 +55,7 @@ body {
   font-size: 2rem;
   cursor: pointer;
   color: red;
+  padding-bottom: 40px;
 }
 
 .para {
@@ -61,13 +63,14 @@ body {
   color: white;
   padding: 10px;
   margin-left: 100px;
+  padding-bottom: 50px;
 }
 
 #tundra1-modal-container {
   display: none;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 7%;
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -76,7 +79,7 @@ body {
   display: none;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 7%;
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -85,7 +88,7 @@ body {
   display: none;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 7%;
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -94,7 +97,7 @@ body {
   display: none;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 7%;
   width: 100%;
   height: 100%;
   z-index: 1;
